@@ -19,7 +19,7 @@ export const projectsData = [
     projectDesc: 'Eshop website is a web application where customer can purchase products. Here, user can register, login, search for products, apply filters, add products to cart, checkout and place the order..',
     tags: ['React', 'Express', 'Node JS', 'MongoDB', 'PayPal'],
     code: 'https://github.com/Smit-2001/Eshop',
-    demo: '',
+    demo: 'https://github.com/Smit-2001/Eshop',
     image: eshop,
   },
   {
