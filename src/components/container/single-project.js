@@ -2,7 +2,7 @@ import { makeStyles } from '@mui/styles';
 import React from 'react';
 import SingleProjectUI from '../core-ui/single-project/single-project-ui';
 
-const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
+const SingleProject = ({ id, name, desc, tags, code, image, theme }) => {
   const useStyles = makeStyles((t) => ({
     iconBtn: {
       display: 'flex',
@@ -38,7 +38,6 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
       desc={desc}
       tags={tags}
       code={code}
-      demo={demo}
       image={image}
       theme={theme}
     />
