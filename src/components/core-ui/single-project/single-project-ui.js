@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './single-project.css';
 
-function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, classes }) {
+function SingleProjectUI({ id, name, desc, tags, code, image, theme, classes }) {
 
 
     return (
@@ -23,25 +23,6 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
-                        <a
-                            href={demo}
-                            target='_blank'
-                            rel='noreferrer'
-                            className={classes.iconBtn}
-                            aria-labelledby={`${name
-                                .replace(' ', '-')
-                                .toLowerCase()} ${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-demo`}
-                        >
-                            <FaPlay
-                                id={`${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-demo`}
-                                className={classes.icon}
-                                aria-label='Demo'
-                            />
-                        </a>
                         <a
                             href={code}
                             target='_blank'
